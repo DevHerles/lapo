@@ -1,0 +1,9 @@
+version: '3'
+services:
+   lapo:
+     build: '.'
+     volumes:
+      - ./www:/var/www/html
+     ports:
+      - "8282:80"
+
